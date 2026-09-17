@@ -20,7 +20,7 @@ calcbutton.onclick = function(){
         total = subtotal
         discountotal = 0
     }
-    pretotal.innerText = subtotal;
-    subtratotal.innerText = discountotal;
-    lastotal.innerText = total;
+    pretotal.innerText = subtotal.toFixed(2);
+    subtratotal.innerText = discountotal.toFixed(2);
+    lastotal.innerText = total.toFixed(2);
 }
